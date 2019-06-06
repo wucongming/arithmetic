@@ -68,6 +68,8 @@ public class RegularExpressionMatching {
         // }
 
         //动态规划
+//        int[] height = {1 , 2};
+//        height.length
         boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
         // boolean[s.length() + 1][p.length() + 1] = true;
         for(int i = s.length(); i >= 0; i--) {
