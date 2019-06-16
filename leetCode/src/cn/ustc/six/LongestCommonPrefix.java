@@ -1,5 +1,8 @@
 package cn.ustc.six;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LongestCommonPrefix {
 
     public String longestCommonPrefix(String[] strs) {
@@ -30,6 +33,9 @@ public class LongestCommonPrefix {
 //         }
 //         return strs.length > 0 ? strs[0].substring(0, index) : "";
         if(strs.length == 0) return "";
+//        int[] arrays = new int[10];
+//        List<Integer> list = new ArrayList<>();
+//        list.addAll(arrays);
         String str = fenzhi(0, strs.length - 1, strs);
         return str;
 
