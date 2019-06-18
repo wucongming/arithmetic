@@ -1,7 +1,9 @@
 package cn.ustc.six;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -24,6 +26,8 @@ import java.util.List;
 public class LetterCombinationsOfAPhoneNumber {
 
     public List<String> letterCombinations(String digits) {
+        Map<Integer, List<List<Integer>>> map = new HashMap<Integer, List<List<Integer>>>();
+//        Arrays.
         int base = 97;
         List<List<String>> lists = new ArrayList<List<String>>();
         for(int i = 0; i < digits.length(); i++) {
