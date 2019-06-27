@@ -37,6 +37,8 @@ public class RemoveElement {
                 nums[len++] = nums[i];
             }
         }
+        String test = "";
+        test.indexOf()
         return len;
     }
 }
